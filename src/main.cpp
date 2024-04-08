@@ -1,4 +1,6 @@
 ﻿#include "Program.h"
+#include <iostream>
+#include <concepts>
 
 int main()
 {
