@@ -1,10 +1,9 @@
 #pragma once
 
-#include "Drawable.h"
-#include "Updatable.h"
-
-class Entity : public Updatable, public Drawable
+class Entity
 {
 public:
-	virtual ~Entity() override = default;
+	virtual ~Entity() = default;
+
+	virtual void draw(sf::RenderWindow& window) const = 0;
 };

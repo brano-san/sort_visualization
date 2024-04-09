@@ -14,5 +14,3 @@ set (BUILD_SHARED_LIBS false)
 
 add_subdirectory ("lib/sfml")
 add_subdirectory ("src")
-
-
